@@ -7,6 +7,8 @@
 .register-form__heading {
     margin-bottom: 20px;
     text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .form {
@@ -27,6 +29,8 @@
     height: 20px;
     color: #ff0000;
     text-align: left;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .form__input--text input {
@@ -35,8 +39,9 @@
     height: 40px;
     border: 1px solid #ddd;
     border-radius: 3px;
-
     appearance: none;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .form__button {
@@ -52,9 +57,13 @@
     background: #000;
     color: #fff;
     cursor: pointer;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .login__link {
     margin-top: 20px;
     text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }

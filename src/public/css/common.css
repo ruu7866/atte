@@ -1,11 +1,10 @@
 .header {
-    background: #000;
+    background: #ffffff;
 }
 
 .header__inner {
-    margin: 0 auto;
     padding: 20px 15px;
-    max-width: 1230px;
+    max-width: 1500px;
 }
 
 .header-utilities {
@@ -15,10 +14,13 @@
 }
 
 .header__logo {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .header-utilities nav {
@@ -32,14 +34,31 @@
 }
 
 .header-nav__link {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
 }
 
 .header-nav__button {
     border: none;
     background: transparent;
-    color: #fff;
+    color: #000000;
     font-size: 16px;
+    font-weight: 600;
+    font-family: "Noto Sans JP", sans-serif;
     cursor: pointer;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+footer {
+    width: 1500px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
 }
