@@ -22,6 +22,12 @@ class CreateAttendancesTable extends Migration
             $table->time('end_time');
             $table->timestamps();
         });
+
+        \DB::table('users')->insert([
+            'name' => '名前',
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
     }
 
     /**
@@ -33,5 +39,7 @@ class CreateAttendancesTable extends Migration
     {
         Schema::dropIfExists('attendances');
     }
+    
+
 }
 

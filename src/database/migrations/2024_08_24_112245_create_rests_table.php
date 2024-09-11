@@ -23,6 +23,7 @@ class CreateRestsTable extends Migration
         });
     }
 
+
     /**
      * Reverse the migrations.
      *
