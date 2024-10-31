@@ -17,11 +17,13 @@ class CreateRestsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('attendanced_id');
             $table->foreign('attendanced_id')->references('id')->on('attendances')->onDelete('cascade');
+            $table->date('date');
             $table->time('start_time');
-            $table->time('end_time');
+            $table->time('end_time')->nullable(true);
             $table->timestamps();
         });
     }
+
 
 
     /**

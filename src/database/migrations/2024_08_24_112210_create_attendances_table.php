@@ -19,15 +19,10 @@ class CreateAttendancesTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->date('date');
             $table->time('start_time');
-            $table->time('end_time');
+            $table->time('end_time')->nullable(true);
             $table->timestamps();
         });
 
-        \DB::table('users')->insert([
-            'name' => '名前',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
     }
 
     /**
